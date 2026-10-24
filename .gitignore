@@ -1,0 +1,39 @@
+# Pastas de build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Pastas do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ficheiros de utilizador
+*.csproj.user
+*.pidb
+*.userprefs
+
+# Resultados de testes
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Resultados de cobertura
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Outros ficheiros do sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
